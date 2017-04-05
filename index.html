@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>auto protect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <input type="button" onclick="start()" value="Start">
+    </header>
+    <div class="wrapper cfx">
+
+        <div class="left__menu">
+            <ul>
+                <li class="func">Датчик удару <input id="hit__val" name="hit__dat" type="number" max="100" min="0" value="0" step="5" size="1"></li>
+                <li class="func">Акселерометр <input  id="accel" name="hit__dat" type="number" max="100" min="0" value="0" step="5" size="1"></li>
+                <li class="func">Датчик замков</li>
+                <li class="func">удаленность брелка</li>
+                <li class="func"></li>
+                <li class="func"></li>
+                <li class="func"></li>
+            </ul>
+        </div>
+        <div class="center__image"></div>
+        <div class="right__menu">
+            <ul>
+                <li class="react">Реакция датчика удару <input type="text" id="hit__res" size="6"></li>
+                <li class="react"></li>
+                <li class="react"></li>
+                <li class="react"></li>
+                <li class="react"></li>
+                <li class="react"></li>
+                <li class="react"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wi__stick">
+        <div class="menu__stick"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.cfx::after { content: ""; display: table; clear: both; }
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    background: #eee;
+    box-sizing: border-box;
+}
+.left__menu{
+    width: 300px;
+    float: left;
+    background: #999;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+.center__image{
+    width: 360px;
+    float: left;
+    background: yellow;
+    box-sizing: border-box;
+    height: 300px;
+}
+.right__menu{
+    width: 300px;
+    float: left;
+    background: #999;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
